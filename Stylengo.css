@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:whgt@500,600,700,&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+::selection{
+    background-color: #ff7657;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(icharity\ images/hero-01-free-img.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display: flex;
+    padding: 2% 5%;
+}
+nav img{
+    cursor: pointer;
+    width: 156 px;
+    height: 40px;
+}
+nav ul{
+    text-align: right;
+    float: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #ff7657;
+}
+ 
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ff7657;
+    transition: .5s;
+    display: block;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+button{
+    padding: 5px 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: linear-gradient(110deg, #ff7657 40%, #833556 60%) ;
+}
+
+.head{
+    margin: 5% 5%;
+    color: white;
+}
+.head h3{
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 5%;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+.head h1{
+    font-size: 80px;
+    font-size: bolder !important;
+    line-height: 1em;
+    padding-bottom: 5%;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 140 vh;
+    padding: 10% 7%; 
+    background-color: #833556;
+}
+.about-left-side{
+    padding-top: 10%;
+}
+.about-left-side h1 {
+    color: white;
+    font-size: 55px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+.about-left-side h3{
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700 !important;
+}
+.about-left-side p{
+    color: white;
+    font-size: 16px;
+    padding-right: 40px;
+    line-height: 26px;
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+.about-right-side img{
+    width: 570px;
+    height: 776px;
+}
+
+.what{
+    width: 100%;
+    height: 280 vh;
+    background-color: #f8f8f8;
+    padding-top: 10%;
+    padding-left: 10;
+}
+.what h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+hr{
+    margin: 2% 2%;
+    background: linear-gradient(110deg, #ff7657 40%, #833556 60%) ;
+    margin-left: 0 ;
+    padding: 10px 0;
+}
+.what p{
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.what p span{
+    font-size: 30px;
+    color: #833556;
+}
+.what p,
+.what button{
+    margin-left: 55%;
+}
+
+.cards{
+    margin-top: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.box{
+    padding: 60px 50px;
+    background-color: #833556;
+    color: white;
+}
+.box h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.box h5{
+    font-size: 16px;
+    padding-bottom: 40px;
+    font-weight: bolder;
+}
+.boxa{
+    background-color: rgba(180, 43, 96, 0.534);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.boxb{
+    background-color: rgba(180, 43, 96, 0.644);
+}
+.boxc{
+    background-color: rgba(180, 43, 96, 0.76);
+}
+.boxd{
+    background-color: rgba(180, 43, 96, 0.842);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.images img{
+    margin-top: 15%;
+}
+.action{
+    background-color: #833556;
+    padding-top: 10%;
+    margin-top: 20%;
+    color: white;
+    text-align: center;
+    height: 80vh;
+}
+.action h3{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.action h1{
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 10%;
+}
+
+.contact-left-side h2, 
+.contact-right-side h3 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+}
+input{
+    padding: 20px 40px;
+    width: 100%;
+    font-size:  18px;
+    margin-bottom: 5%;
+}
+.contact-left-side h1 {
+    padding-top: 40px;
+    font-size: 32px;
+}
+.contact-left-side p {
+    padding-top: 90px;
+}
+.contact-left-side p span {
+    color: #833556;
+    cursor: pointer;
+}
+.contact-right-side h4 {
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.icons {
+    padding-top: 50px;
+}
+.icons i {
+    border-radius: 80px;
+    border: 2px solid #833556;
+    font-size: 25px;
+    padding: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+.icons i:hover{
+    background-color: #833556;
+}
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 

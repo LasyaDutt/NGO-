@@ -5,7 +5,7 @@ When the user visits NGO Charity website, they are asked whether they want to pa
 
 FUNCTIONALITY -
 When a user visits our website. 
-1. The home page includes areas such as about us, helping out, contact, and give.
+1. The home page includes areas such as about us, helping out, contact, and Donate.
 2. By picking the above alternatives, the user can navigate the full website page. 
-3. By clicking give, they can donate food, time, or blood to the charity.
+3. By clicking Donate, they can donate food, time, or blood to the charity.
 
